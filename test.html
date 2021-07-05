@@ -1,0 +1,25 @@
+<html>
+<head>
+<script language=javascript>
+ function change_page(obj) {
+  if (obj.selectedIndex != 0) {
+   location.href=obj.value;
+  }
+ }
+</script>
+</head>
+<body>
+
+<?php
+echo '<select name="Ville" onchange="change_page(this);">';
+echo '<option>-----</option>';
+$menu_items = file("villes.txt");
+foreach ($menu_items as $item)
+{
+ echo '<option value="'.preg_split('/er:/', str_replace("rn", "", $item), -1)[1].'">'.substr($item, 6, strpos($item, ";")-6).'</option>';
+}
+echo '</select>';
+?>
+
+</body>
+</html>
