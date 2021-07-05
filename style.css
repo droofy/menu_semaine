@@ -27,6 +27,7 @@ body{
     color: #fff;
     text-align: center;
     font: italic 1.3em 'sans-serif';
+    border-radius: 0.5em;
     }
 
 
@@ -76,13 +77,24 @@ body{
     background: url(bann_sep.png) 0 bottom repeat-x;
 }
 
-.menu-deroulant{
+.menu-deroulant-viande{
+    width: 90%;
+    font-size: 0.7em;
+}
+.menu-deroulant-legume{
     width: 90%;
     font-size: 0.7em;
 }
 
 
-   
+.bouton_valider {
+    height: 50px;
+    width: 150px;
+    border-radius: 0.5em;
+    background-color: #eff0c3;
+    font-size: 1em;
+    color: black;
+  }
 
 
 

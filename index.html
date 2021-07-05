@@ -6,52 +6,30 @@
   <title>Titre de la page</title>
   <link rel="stylesheet" href="style.css">
   <script src="script.js"></script>
+  <script src="papaparse.js"></script>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+
 </head>
 <body>
- 
-  
+
   <!-- AFFICHAGE CASES FLEX -->
-<div class="flex-container">
+<div class="flex-container" >
   <div class="flex-item flex-lundi">
     <div class="flex-item-title">Lundi</div>
     <div>Midi</div>
-      <select class="menu-deroulant" name="lundi-midi-viande" id="lundi-midi-viande">
+      <select class="menu-deroulant-viande" name="lundi-midi-viande" id="lundi-midi-viande">
         <option value=""></option>
-        <option value="dog">Dog</option>
-        <option value="cat">Cat</option>
-        <option value="hamster">Hamster</option>
-        <option value="parrot">Parrot</option>
-        <option value="spider">Spider</option>
-        <option value="goldfish">Goldfish</option>
      </select>
-      <select class="menu-deroulant" name="lundi-midi-viande" id="lundi-midi-viande">
-        <option value="">--Please choose an option--</option>
-        <option value="dog">Dog</option>
-        <option value="cat">Cat</option>
-        <option value="hamster">Hamster</option>
-        <option value="parrot">Parrot</option>
-        <option value="spider">Spider</option>
-        <option value="goldfish">Goldfish</option>
+      <select class="menu-deroulant-legume" name="lundi-midi-legume" id="lundi-midi-legume">
+        <option value=""></option>
      </select>
     <div class="separateur"></div>
     <div>Soir</div>
-    <select class="menu-deroulant" name="lundi-midi-viande" id="lundi-midi-viande">
-      <option value="">--Please choose an option--</option>
-      <option value="dog">Dog</option>
-      <option value="cat">Cat</option>
-      <option value="hamster">Hamster</option>
-      <option value="parrot">Parrot</option>
-      <option value="spider">Spider</option>
-      <option value="goldfish">Goldfish</option>
+    <select class="menu-deroulant-viande" name="lundi-soir-viande" id="lundi-soir-viande">
+      <option value=""></option>
    </select>
-      <select class="menu-deroulant" name="lundi-midi-viande" id="lundi-midi-viande">
-      <option value="">--Please choose an option--</option>
-      <option value="dog">Dog</option>
-      <option value="cat">Cat</option>
-      <option value="hamster">Hamster</option>
-      <option value="parrot">Parrot</option>
-      <option value="spider">Spider</option>
-      <option value="goldfish">Goldfish</option>
+      <select class="menu-deroulant-legume" name="lundi-soir-legume" id="lundi-soir-legume">
+        <option value=""></option>
    </select>
   </div>
 
@@ -59,43 +37,19 @@
   <div class="flex-item flex-mardi">
     <div class="flex-item-title">Mardi</div>
     <div>Midi</div>
-      <select class="menu-deroulant" name="lundi-midi-viande" id="lundi-midi-viande">
+      <select class="menu-deroulant-viande" name="mardi-midi-viande" id="mardi-midi-viande">
         <option value=""></option>
-        <option value="dog">Dog</option>
-        <option value="cat">Cat</option>
-        <option value="hamster">Hamster</option>
-        <option value="parrot">Parrot</option>
-        <option value="spider">Spider</option>
-        <option value="goldfish">Goldfish</option>
      </select>
-      <select class="menu-deroulant" name="lundi-midi-viande" id="lundi-midi-viande">
-        <option value="">--Please choose an option--</option>
-        <option value="dog">Dog</option>
-        <option value="cat">Cat</option>
-        <option value="hamster">Hamster</option>
-        <option value="parrot">Parrot</option>
-        <option value="spider">Spider</option>
-        <option value="goldfish">Goldfish</option>
+      <select class="menu-deroulant-legume" name="mardi-midi-legume" id="mardi-midi-legume">
+        <option value=""></option>
      </select>
     <div class="separateur"></div>
     <div>Soir</div>
-    <select class="menu-deroulant" name="lundi-midi-viande" id="lundi-midi-viande">
-      <option value="">--Please choose an option--</option>
-      <option value="dog">Dog</option>
-      <option value="cat">Cat</option>
-      <option value="hamster">Hamster</option>
-      <option value="parrot">Parrot</option>
-      <option value="spider">Spider</option>
-      <option value="goldfish">Goldfish</option>
+    <select class="menu-deroulant-viande" name="mardi-soir-viande" id="mardi-soir-viande">
+        <option value=""></option>
    </select>
-      <select class="menu-deroulant" name="lundi-midi-viande" id="lundi-midi-viande">
-      <option value="">--Please choose an option--</option>
-      <option value="dog">Dog</option>
-      <option value="cat">Cat</option>
-      <option value="hamster">Hamster</option>
-      <option value="parrot">Parrot</option>
-      <option value="spider">Spider</option>
-      <option value="goldfish">Goldfish</option>
+      <select class="menu-deroulant-legume" name="mardi-soir-legume" id="mardi-soir-legume">
+        <option value=""></option>
    </select>
   </div>
 
@@ -103,43 +57,19 @@
   <div class="flex-item flex-mercredi">
     <div class="flex-item-title">Mercredi</div>
     <div>Midi</div>
-      <select class="menu-deroulant" name="lundi-midi-viande" id="lundi-midi-viande">
+      <select class="menu-deroulant-viande" name="mercredi-midi-viande" id="mercredi-midi-viande">
         <option value=""></option>
-        <option value="dog">Dog</option>
-        <option value="cat">Cat</option>
-        <option value="hamster">Hamster</option>
-        <option value="parrot">Parrot</option>
-        <option value="spider">Spider</option>
-        <option value="goldfish">Goldfish</option>
      </select>
-      <select class="menu-deroulant" name="lundi-midi-viande" id="lundi-midi-viande">
-        <option value="">--Please choose an option--</option>
-        <option value="dog">Dog</option>
-        <option value="cat">Cat</option>
-        <option value="hamster">Hamster</option>
-        <option value="parrot">Parrot</option>
-        <option value="spider">Spider</option>
-        <option value="goldfish">Goldfish</option>
+      <select class="menu-deroulant-legume" name="mercredi-midi-legume" id="mercredi-midi-legume">
+        <option value=""></option>
      </select>
     <div class="separateur"></div>
     <div>Soir</div>
-    <select class="menu-deroulant" name="lundi-midi-viande" id="lundi-midi-viande">
-      <option value="">--Please choose an option--</option>
-      <option value="dog">Dog</option>
-      <option value="cat">Cat</option>
-      <option value="hamster">Hamster</option>
-      <option value="parrot">Parrot</option>
-      <option value="spider">Spider</option>
-      <option value="goldfish">Goldfish</option>
+    <select class="menu-deroulant-viande" name="mercredi-soir-viande" id="mercredi-soir-viande">
+        <option value=""></option>
    </select>
-      <select class="menu-deroulant" name="lundi-midi-viande" id="lundi-midi-viande">
-      <option value="">--Please choose an option--</option>
-      <option value="dog">Dog</option>
-      <option value="cat">Cat</option>
-      <option value="hamster">Hamster</option>
-      <option value="parrot">Parrot</option>
-      <option value="spider">Spider</option>
-      <option value="goldfish">Goldfish</option>
+      <select class="menu-deroulant-legume" name="mercredi-soir-legume" id="mercredi-soir-legume">
+        <option value=""></option>
    </select>
   </div>
 
@@ -147,43 +77,19 @@
   <div class="flex-item flex-jeudi">
     <div class="flex-item-title">Jeudi</div>
     <div>Midi</div>
-      <select class="menu-deroulant" name="lundi-midi-viande" id="lundi-midi-viande">
+      <select class="menu-deroulant-viande" name="jeudi-midi-viande" id="jeudi-midi-viande">
         <option value=""></option>
-        <option value="dog">Dog</option>
-        <option value="cat">Cat</option>
-        <option value="hamster">Hamster</option>
-        <option value="parrot">Parrot</option>
-        <option value="spider">Spider</option>
-        <option value="goldfish">Goldfish</option>
      </select>
-      <select class="menu-deroulant" name="lundi-midi-viande" id="lundi-midi-viande">
-        <option value="">--Please choose an option--</option>
-        <option value="dog">Dog</option>
-        <option value="cat">Cat</option>
-        <option value="hamster">Hamster</option>
-        <option value="parrot">Parrot</option>
-        <option value="spider">Spider</option>
-        <option value="goldfish">Goldfish</option>
+      <select class="menu-deroulant-legume" name="jeudi-midi-legume" id="jeudi-midi-legume">
+        <option value=""></option>
      </select>
     <div class="separateur"></div>
     <div>Soir</div>
-    <select class="menu-deroulant" name="lundi-midi-viande" id="lundi-midi-viande">
-      <option value="">--Please choose an option--</option>
-      <option value="dog">Dog</option>
-      <option value="cat">Cat</option>
-      <option value="hamster">Hamster</option>
-      <option value="parrot">Parrot</option>
-      <option value="spider">Spider</option>
-      <option value="goldfish">Goldfish</option>
+    <select class="menu-deroulant-viande" name="jeudi-soir-viande" id="jeudi-soir-viande">
+        <option value=""></option>
    </select>
-      <select class="menu-deroulant" name="lundi-midi-viande" id="lundi-midi-viande">
-      <option value="">--Please choose an option--</option>
-      <option value="dog">Dog</option>
-      <option value="cat">Cat</option>
-      <option value="hamster">Hamster</option>
-      <option value="parrot">Parrot</option>
-      <option value="spider">Spider</option>
-      <option value="goldfish">Goldfish</option>
+      <select class="menu-deroulant-legume" name="jeudi-soir-legume" id="jeudi-soir-legume">
+        <option value=""></option>
    </select>
   </div>
 
@@ -191,43 +97,19 @@
   <div class="flex-item flex-vendredi">
     <div class="flex-item-title">Vendredi</div>
     <div>Midi</div>
-      <select class="menu-deroulant" name="lundi-midi-viande" id="lundi-midi-viande">
+      <select class="menu-deroulant-viande" name="vendredi-midi-viande" id="vendredi-midi-viande">
         <option value=""></option>
-        <option value="dog">Dog</option>
-        <option value="cat">Cat</option>
-        <option value="hamster">Hamster</option>
-        <option value="parrot">Parrot</option>
-        <option value="spider">Spider</option>
-        <option value="goldfish">Goldfish</option>
      </select>
-      <select class="menu-deroulant" name="lundi-midi-viande" id="lundi-midi-viande">
-        <option value="">--Please choose an option--</option>
-        <option value="dog">Dog</option>
-        <option value="cat">Cat</option>
-        <option value="hamster">Hamster</option>
-        <option value="parrot">Parrot</option>
-        <option value="spider">Spider</option>
-        <option value="goldfish">Goldfish</option>
+      <select class="menu-deroulant-legume" name="vendredi-midi-legume" id="vendredi-midi-legume">
+        <option value=""></option>
      </select>
     <div class="separateur"></div>
     <div>Soir</div>
-    <select class="menu-deroulant" name="lundi-midi-viande" id="lundi-midi-viande">
-      <option value="">--Please choose an option--</option>
-      <option value="dog">Dog</option>
-      <option value="cat">Cat</option>
-      <option value="hamster">Hamster</option>
-      <option value="parrot">Parrot</option>
-      <option value="spider">Spider</option>
-      <option value="goldfish">Goldfish</option>
+    <select class="menu-deroulant-viande" name="vendredi-soir-viande" id="vendredi-soir-viande">
+        <option value=""></option>
    </select>
-      <select class="menu-deroulant" name="lundi-midi-viande" id="lundi-midi-viande">
-      <option value="">--Please choose an option--</option>
-      <option value="dog">Dog</option>
-      <option value="cat">Cat</option>
-      <option value="hamster">Hamster</option>
-      <option value="parrot">Parrot</option>
-      <option value="spider">Spider</option>
-      <option value="goldfish">Goldfish</option>
+      <select class="menu-deroulant-legume" name="vendredi-soir-legume" id="vendredi-soir-legume">
+        <option value=""></option>
    </select>
   </div>
 
@@ -235,43 +117,19 @@
   <div class="flex-item flex-samedi">
     <div class="flex-item-title">Samedi</div>
     <div>Midi</div>
-      <select class="menu-deroulant" name="lundi-midi-viande" id="lundi-midi-viande">
+      <select class="menu-deroulant-viande" name="samedi-midi-viande" id="samedi-midi-viande">
         <option value=""></option>
-        <option value="dog">Dog</option>
-        <option value="cat">Cat</option>
-        <option value="hamster">Hamster</option>
-        <option value="parrot">Parrot</option>
-        <option value="spider">Spider</option>
-        <option value="goldfish">Goldfish</option>
      </select>
-      <select class="menu-deroulant" name="lundi-midi-viande" id="lundi-midi-viande">
-        <option value="">--Please choose an option--</option>
-        <option value="dog">Dog</option>
-        <option value="cat">Cat</option>
-        <option value="hamster">Hamster</option>
-        <option value="parrot">Parrot</option>
-        <option value="spider">Spider</option>
-        <option value="goldfish">Goldfish</option>
+      <select class="menu-deroulant-legume" name="samedi-midi-legume" id="samedi-midi-legume">
+        <option value=""></option>
      </select>
     <div class="separateur"></div>
     <div>Soir</div>
-    <select class="menu-deroulant" name="lundi-midi-viande" id="lundi-midi-viande">
-      <option value="">--Please choose an option--</option>
-      <option value="dog">Dog</option>
-      <option value="cat">Cat</option>
-      <option value="hamster">Hamster</option>
-      <option value="parrot">Parrot</option>
-      <option value="spider">Spider</option>
-      <option value="goldfish">Goldfish</option>
+    <select class="menu-deroulant-viande" name="samedi-soir-viande" id="samedi-soir-viande">
+        <option value=""></option>
    </select>
-      <select class="menu-deroulant" name="lundi-midi-viande" id="lundi-midi-viande">
-      <option value="">--Please choose an option--</option>
-      <option value="dog">Dog</option>
-      <option value="cat">Cat</option>
-      <option value="hamster">Hamster</option>
-      <option value="parrot">Parrot</option>
-      <option value="spider">Spider</option>
-      <option value="goldfish">Goldfish</option>
+      <select class="menu-deroulant-legume" name="samedi-soir-legume" id="samedi-soir-legume">
+        <option value=""></option>
       </select>
   </div>
 
@@ -279,46 +137,24 @@
   <div class="flex-item flex-dimanche">
     <div class="flex-item-title">Dimanche</div>
     <div>Midi</div>
-      <select class="menu-deroulant" name="lundi-midi-viande" id="lundi-midi-viande">
+      <select class="menu-deroulant-viande" name="dimanche-midi-viande" id="dimanche-midi-viande">
         <option value=""></option>
-        <option value="dog">Dog</option>
-        <option value="cat">Cat</option>
-        <option value="hamster">Hamster</option>
-        <option value="parrot">Parrot</option>
-        <option value="spider">Spider</option>
-        <option value="goldfish">Goldfish</option>
      </select>
-      <select class="menu-deroulant" name="lundi-midi-viande" id="lundi-midi-viande">
-        <option value="">--Please choose an option--</option>
-        <option value="dog">Dog</option>
-        <option value="cat">Cat</option>
-        <option value="hamster">Hamster</option>
-        <option value="parrot">Parrot</option>
-        <option value="spider">Spider</option>
-        <option value="goldfish">Goldfish</option>
+      <select class="menu-deroulant-legume" name="dimanche-midi-legume" id="dimanche-midi-legume">
+        <option value=""></option>
      </select>
     <div class="separateur"></div>
     <div>Soir</div>
-    <select class="menu-deroulant" name="lundi-midi-viande" id="lundi-midi-viande">
-      <option value="">--Please choose an option--</option>
-      <option value="dog">Dog</option>
-      <option value="cat">Cat</option>
-      <option value="hamster">Hamster</option>
-      <option value="parrot">Parrot</option>
-      <option value="spider">Spider</option>
-      <option value="goldfish">Goldfish</option>
+    <select class="menu-deroulant-viande" name="dimanche-soir-viande" id="dimanche-soir-viande">
+        <option value=""></option>
    </select>
-      <select class="menu-deroulant" name="lundi-midi-viande" id="lundi-midi-viande">
-      <option value="">--Please choose an option--</option>
-      <option value="dog">Dog</option>
-      <option value="cat">Cat</option>
-      <option value="hamster">Hamster</option>
-      <option value="parrot">Parrot</option>
-      <option value="spider">Spider</option>
-      <option value="goldfish">Goldfish</option>
+      <select class="menu-deroulant-legume" name="dimanche-soir-legume" id="dimanche-soir-legume">
+        <option value=""></option>
    </select>
   </div>
-  <input type="button" value="Valider la semaine">
+  
+  <input type="button" class="bouton_valider" value="Valider la semaine" onclick="getValue()">
+
 
 </div>
 
