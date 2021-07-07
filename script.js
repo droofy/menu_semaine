@@ -27,6 +27,7 @@ fetch('plats.csv')
 
 
 
+
 function csv_string_to_table(csv_string) {
     var rows = csv_string.trim().split(/\r?\n|\r/); // Regex to split/separate the CSV rows
 
@@ -53,30 +54,36 @@ function csv_string_to_table(csv_string) {
 function getValue() {
     
 
-    // Sélectionner l'élément input et récupérer sa valeur
-    var input = '';
-
-
+    // Sélectionner l'élément output et récupérer sa valeur
+    var output = '';
+    var test;
     
     ["lundi","mardi","mercredi","jeudi","vendredi","samedi","dimanche"].forEach(function(jour){
      
-            input += jour+' : ';
-            input += document.getElementById(jour+'-midi-viande').value + ' / ';
-            input += document.getElementById(jour+'-midi-legume').value + ' , ';
-            input += document.getElementById(jour+'-soir-viande').value + ' / ';
-            input += document.getElementById(jour+'-soir-legume').value + '\n';
-            
-
+            if( document.getElementById(jour+'-midi-viande').value != ""){output += document.getElementById(jour+'-midi-viande').value + ','};
+            if( document.getElementById(jour+'-midi-legume').value != ""){output += document.getElementById(jour+'-midi-legume').value + ','};
+            if( document.getElementById(jour+'-soir-viande').value != ""){output += document.getElementById(jour+'-soir-viande').value + ','};
+            if( document.getElementById(jour+'-soir-legume').value != ""){output += document.getElementById(jour+'-soir-legume').value + ','};
             
     });
+    
+    output = output.substring(0, output.length - 1);
 
-    alert(input);
+    // Resultat
+    alert(output);
+    test =  filterArray(output.split(',')); // met en tableau puis supprime les doublons
 }
 
 
 
-
-
+//  Suppression des doublon dans un tableau
+function filterArray(inputArr){
+    var found ={};
+    var out = inputArr.filter(function(element){
+        return found.hasOwnProperty(element)? false : (found[element]=true);
+    });
+    return out;
+}
 
 
 
