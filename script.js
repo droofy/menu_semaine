@@ -67,13 +67,9 @@ function getValue() {
             
     });
     
-    output = output.substring(0, output.length - 1);
-
-    // Resultat
-    alert(output);
-    test =  filterArray(output.split(',')); // met en tableau puis supprime les doublons
+    output = output.substring(0, output.length - 1); // supprime le fernier caractère ";"
+    alert (filterArray(output.split(','))); // met en tableau puis supprime les doublons
 }
-
 
 
 //  Suppression des doublon dans un tableau
