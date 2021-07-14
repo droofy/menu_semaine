@@ -58,7 +58,6 @@ function menu_semaine() {
 
     JourSemaine.forEach(function(jour) {
 
-
         // for(let i=0;i < 7; i++){
 
         code += '<div class="flex-item flex-' + jour + '">'
