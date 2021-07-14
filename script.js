@@ -68,10 +68,10 @@ function menu_semaine() {
 
             code += '<div>' + moment + '</div><select class="menu-deroulant-viande" name="' + jour + '-' + moment + '-viande" id="' + jour + '-' + moment + '-viande"><option value=""></option></select>'
             code += '<select class="menu-deroulant-legume" name="' + jour + '-' + moment + '-legume" id="' + jour + '-' + moment + '-legume"><option value=""></option></select>'
-            code += ' <div class="separateur"></div>'
-
+            if (moment == "Midi") { //pour n'afficher uniquement le séparateur entre le midi et le soir
+                code += ' <div class="separateur"></div>'
+            }
         });
-
         code += '</div>'
 
     });
