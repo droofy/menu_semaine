@@ -1,22 +1,60 @@
-== VIANDES ==;Petit pois carotte
-Roti de boeuf;Haricots verts
-Roti de porc;Haricots blancs
-Jambon;Riz
-Steak;Blé
-Steak haché;Pomme de terre
-Saucisse;Salade
-Barbecue;Chips
-;Tagliatelle
-;Gnocci
-;
-;
+== VIANDES ==;
+;;-----------;;
+Paupiette de veau;
+Lapin à la moutarde;
+Poulet;
+Roti de boeuf;
+Roti de porc;
+Jambon;
+Steak;
+Steak haché;
+Saucisse;
+Barbecue;
+Boudin;
+Cordon bleu;
+Escalope de dinde;
+Omelette;
+Œuf mollet;
 ;
 ;
 == POISSONS ==;
+;;------------;;
 Pavé de saumon;
 Colin;
 Acras de morues;
 ;
 ;
-;
 == AUTRE ==;
+;;---------;;
+Quiche;
+Quiche poireaux;
+Raclette;
+Lasagne;
+Couscous;
+Courgette farcie;
+Pizza;
+Japonais;
+Galette de jambon champignons ;
+Endive au jambon;
+Parmentier de canard;
+Burger maison;
+Croque monsieur;
+Tomate farcie;
+Soupe;
+;
+;
+;;LEGUMES CI DESSOUS ;;
+;;-------------------;;
+;Gaufres légumes
+;Petit pois carotte
+;Haricots verts
+;Haricots blancs
+;Riz
+;Pâtes
+;Blé
+;Frites
+;Pomme de terre
+;Salade
+;Chips
+;Tagliatelle
+;Gnocci
