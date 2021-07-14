@@ -1,12 +1,11 @@
-
-body{
-    background-color:rgb(87, 84, 104);
+body {
+    background-color: rgb(87, 84, 104);
 }
 
 
-
 /* FLEX - CONTAINER */
-.flex-container{
+
+.flex-container {
     display: flex;
     flex-flow: column;
     justify-content: space-evenly;
@@ -14,78 +13,77 @@ body{
     list-style: none;
     margin-block: 2em;
 }
-    
 
 
 /* FLEX - ITEM */
 
-    .flex-item{
+.flex-item {
     height: 13em;
-    width:15em;
+    width: 15em;
     margin-bottom: 1em;
     padding-top: 0.1em;
     color: #fff;
     text-align: center;
     font: italic 1.3em 'sans-serif';
     border-radius: 0.5em;
-    }
+}
 
-
-
-
-
-
-.flex-lundi{
+.flex-Lundi {
     background-color: #aad4b3;
 }
-.flex-mardi{
+
+.flex-Mardi {
     background-color: #86cdd7;
 }
-.flex-mercredi{
+
+.flex-Mercredi {
     background-color: #b8abb8;
 }
-.flex-jeudi{
+
+.flex-Jeudi {
     background-color: #ffddbd;
 }
-.flex-vendredi{
+
+.flex-Vendredi {
     background-color: #F2B8D8;
 }
-.flex-samedi{
+
+.flex-Samedi {
     background-color: #c5c5a0;
 }
-.flex-dimanche{
+
+.flex-Dimanche {
     background-color: #dd4f47;
 }
 
 
 /* FLEX - ITEM - TITRE */
-.flex-item-title{
 
+.flex-item-title {
     font: bold 2em 'sans serif';
     text-align: center;
     font-style: italic;
     padding: 0 0 0.3em;
     /* width: 194px; */
     /* margin: 0 auto 2px; */
+}
 
-    }
-
-.separateur{
+.separateur {
     padding: 1px 0 0.5em;
     width: 194px;
     margin: 0 auto 0.5em;
     background: url(bann_sep.png) 0 bottom repeat-x;
 }
 
-.menu-deroulant-viande{
-    width: 90%;
-    font-size: 0.7em;
-}
-.menu-deroulant-legume{
+.menu-deroulant-viande {
     width: 90%;
     font-size: 0.7em;
 }
 
+.menu-deroulant-legume {
+    width: 90%;
+    font-size: 0.7em;
+}
 
 .bouton_valider {
     height: 50px;
@@ -94,13 +92,4 @@ body{
     background-color: #eff0c3;
     font-size: 1em;
     color: black;
-  }
-
-
-
-
-
-
-
-
-
+}
